@@ -1,0 +1,86 @@
+#menu {
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	font-size: var(--medium-fz);
+	
+	padding: 1rem 1.5rem;
+	z-index: 1000;
+	border-radius: 0.5rem;
+display: none;
+}
+@media only screen and (max-width: 1200px) {
+.home {
+	padding: 1rem 4rem;
+}
+.book {
+	width: 100% !important;
+	height: 100% !important;
+}
+}
+
+
+@media only screen and (max-width: 992px) {
+	header {
+		left: -120%;
+	}
+	#menu {
+		display: block;
+	}
+	header.active {
+		left: 0%;
+	}	
+	body {
+		padding: 0;
+	}
+	.book {
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	header {
+		width: 100vw;
+	}
+	
+	body {
+		padding: 0;
+	}
+	.book {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	
+}
+@media only screen and (max-width: 576px) {
+	header {
+		width: 100vw;
+	}
+	body {
+		padding: 0;
+	}
+	.home .container .first-text {
+		line-height: 3.2rem;
+		
+	}
+	footer {
+		padding-top: 15rem !important;
+	}
+	.book {
+		width: 100% !important;
+		height: 110% !important;
+	}
+}
+@media only screen and (max-width: 320px) {
+	
+	body {
+		padding: 0;
+	}
+	.book {
+		width: 100% !important;
+		height: 100% !important;
+	}
+}

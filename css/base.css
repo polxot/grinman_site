@@ -1,0 +1,73 @@
+@import './../fonts/font.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	outline: 0;
+	/* text-transform: capitalize; */
+	/*каждая первая буква большая*/
+	transition: all .2s linear;
+	font-family: 'Nunito', sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	/* color: #fff; */
+}
+img {
+	max-width: 100%;
+}
+body {
+	background: url(./../images/bg/bg.png) no-repeat center center fixed;
+	background-size: cover;
+	padding-left: 42rem;
+	
+}
+
+
+/* scroll */
+body {
+	--sb-track-color: #222;
+	--sb-thumb-color: deepskyblue;
+	--sb-size: 1rem;
+}
+
+body::-webkit-scrollbar {
+	width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+	background: var(--sb-track-color);
+	border-radius: 1rem;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--sb-thumb-color);
+	border-radius: 1rem;
+}
+section {
+	min-height: 100vh;
+	padding: 1rem;
+}
+hr {
+	border: 1px solid royalblue;
+}
+.center {
+	text-align: center;
+}
+.left {
+	text-align-last: left;
+}
+.justify {
+	text-align: justify;
+}
+p {
+	text-indent: 20px; /* Отступ первой строки в пикселах */
+ }
+
+
+
