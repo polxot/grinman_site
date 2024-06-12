@@ -39,6 +39,9 @@ font-weight: 600;
 	margin-bottom: 0.5rem;
 	height: auto;
 }
+.footer-btn {
+	margin-top: 15rem;
+}
 
 /* .footer-block h5 {
   color: #ede5a8;
