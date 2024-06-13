@@ -16,6 +16,8 @@ html {
 	font-size: 62.5%;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
+	scrollbar-color: #62fc02 #0522fc;
+
 	/* color: #fff; */
 }
 img {
